@@ -1,0 +1,30 @@
+.achievement-card {
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.achievement-card h2 {
+  font-family: var(--font-display);
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.achievement-card h4 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.achievement-card p {
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
+@media (max-width: 480px) {
+  .achievement-card h2 {
+    font-size: 44px;
+  }
+}
